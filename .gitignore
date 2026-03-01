@@ -1,0 +1,105 @@
+# ==================================================
+# DATASETS (NEVER PUSH)
+# ==================================================
+data/
+datasets/
+BraTS2020_TrainingData/
+prepared_masks/
+prepared_slices/
+prepared_tumor_masks/
+
+*.csv.large
+*.zip
+*.tar
+*.gz
+*.rar
+
+# ==================================================
+# MODEL WEIGHTS
+# ==================================================
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+*.pb
+checkpoints/
+weights/
+models/
+
+# ==================================================
+# TRAINING OUTPUTS
+# ==================================================
+runs/
+logs/
+outputs/
+results/
+predictions/
+tensorboard/
+wandb/
+
+# ==================================================
+# CACHE FILES
+# ==================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.cache/
+tmp/
+temp/
+
+# ==================================================
+# JUPYTER
+# ==================================================
+.ipynb_checkpoints/
+
+# ==================================================
+# VIRTUAL ENVIRONMENTS
+# ==================================================
+venv/
+env/
+.venv/
+ENV/
+
+# Remote / cloud IDE servers
+.cursor-server/
+.vscode-server/
+.windsurf-server/
+
+# Lightning studio
+.lightning_studio/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# ==================================================
+# OS FILES
+# ==================================================
+.DS_Store
+Thumbs.db
+
+# ==================================================
+# SECRETS
+# ==================================================
+.kaggle/
+.env
+.env.*
+
+# ==================================================
+# STREAMLIT / GRADIO CACHE
+# ==================================================
+.streamlit/secrets.toml
+gradio_cached_examples/
+
+# ==================================================
+# LARGE MEDIA
+# ==================================================
+*.mp4
+*.avi
+*.tiff
+*.nii
+*.nii.gz
